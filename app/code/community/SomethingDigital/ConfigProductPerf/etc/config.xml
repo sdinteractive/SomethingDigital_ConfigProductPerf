@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SomethingDigital_ConfigProductPerf>
+            <version>1.0.0</version>
+        </SomethingDigital_ConfigProductPerf>
+    </modules>
+
+    <global>
+        <models>
+            <somethingdigital_configproductperf>
+                <class>SomethingDigital_ConfigProductPerf_Model</class>
+            </somethingdigital_configproductperf>
+
+            <catalog_resource>
+                <rewrite>
+                    <product>SomethingDigital_ConfigProductPerf_Model_Resource_Product</product>
+                </rewrite>
+            </catalog_resource>
+        </models>
+
+        <helpers>
+            <somethingdigital_configproductperf>
+                <class>SomethingDigital_ConfigProductPerf_Helper</class>
+            </somethingdigital_configproductperf>
+
+            <configurableswatches>
+                <rewrite>
+                    <mediafallback>SomethingDigital_ConfigProductPerf_Helper_ConfigurableSwatches_Mediafallback</mediafallback>
+                </rewrite>
+            </configurableswatches>
+        </helpers>
+
+        <catalog>
+            <product>
+                <url>
+                    <model>somethingdigital_configproductperf/product_url</model>
+                </url>
+            </product>
+        </catalog>
+    </global>
+</config>

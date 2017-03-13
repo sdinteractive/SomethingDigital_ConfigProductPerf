@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SomethingDigital_ConfigProductPerf>
+            <active>true</active>
+            <codePool>community</codePool>
+
+            <depends>
+                <Mage_Catalog />
+                <Enterprise_Catalog />
+            </depends>
+        </SomethingDigital_ConfigProductPerf>
+    </modules>
+</config>
