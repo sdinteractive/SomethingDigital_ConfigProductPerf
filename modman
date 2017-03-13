@@ -1,0 +1,6 @@
+#SomethingDigital_ConfigProductPerf
+# app
+app/code/community/SomethingDigital/ConfigProductPerf
+
+# etc
+app/etc/modules/SomethingDigital_ConfigProductPerf.xml
